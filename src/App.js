@@ -1,21 +1,23 @@
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
+import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div>
+    <div className="App">
+
       <Navbar />
       <Home />
       <About />
-      <Portfolio />
       <Experience />
+      <Skills />
       <SocialLinks />
-      <Contact />
+      <Footer />
     </div>
   );
 }
