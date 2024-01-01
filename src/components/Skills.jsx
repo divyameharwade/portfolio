@@ -90,17 +90,14 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full"
     >
-      <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            {" "}
-            Skills
-          </p>
+      <div className="max-w-screen-lg mx-auto px-4 flex flex-col justify-center w-full h-full text-white ">
+        <div className="flex justify-center mb-4 text-xl font-medium text-cyan-300 md:text-2xl md:mb-8 border-y-2 md:border-y-0 border-cyan-100">
+          <div className="md:border-b-2 border-cyan-100">SKILLS</div>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-8 text-center py-8 px-12 sm:px-0 mb-10 md:mb-28">
           {images.map(({ id, src, text, style }) => (
             <div
               key={id}

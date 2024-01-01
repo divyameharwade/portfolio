@@ -5,14 +5,14 @@ const About = () => {
     // <div className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
     <div
       name="about"
-      className="h-screen w-full bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500"></p>
         </div>
-        <div className="text-md mt-10 space-y-5">
-          <div className="flex justify-center text-cyan-300 font-bold text-4xl">
+        <div className="text-md mt-10 mb-20 space-y-5 md:mb-28">
+          <div className="flex justify-center text-2xl text-cyan-300 font-bold md:text-4xl">
             Welcome to my digital space!
           </div>
           <div>
@@ -21,9 +21,10 @@ const About = () => {
             University{" "}
             <strong className="text-yellow-200">
               {" "}
-              (expected graduation in June 2025){" "}
+              (expected graduation in June 2025),{" "}
             </strong>
-            , I am deeply passionate about crafting innovative solutions.
+            I am deeply passionate about designing and developing innovative
+            software solutions.
           </div>
           <div>
             My professional journey includes pivotal roles in the development

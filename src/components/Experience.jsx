@@ -18,16 +18,14 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="h-full w-full mx-auto bg-gradient-to-b from-black via-black to-gray-800 text-white z-1"
+      className="w-full mx-auto bg-gradient-to-b from-black via-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-              Experience
-            </p>
+          <div className="flex justify-center mb-4 text-xl font-medium text-cyan-300 md:text-2xl md:mb-8 border-y-2 md:border-y-0 border-cyan-100">
+            <div className="md:border-b-2 border-cyan-100">EXPERIENCE</div>
           </div>
-          <div className="mx-auto  text-black">
+          <div className="mx-auto mb-20 text-black md:mb-28">
             <VerticalTimeline>
               {TimelineElements.map((element) => {
                 let isWorkIcon = element.icon === "work";
